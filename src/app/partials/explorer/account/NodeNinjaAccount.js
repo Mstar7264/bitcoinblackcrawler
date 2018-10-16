@@ -69,11 +69,11 @@ export default class NodeNinjaAccount extends React.Component {
               values={{
                 link: (
                   <a
-                    href={`https://mynano.ninja/account/${account}`}
+                    href={`http://18.233.201.235/account/${account}`}
                     className="text-muted"
                     target="_blank"
                   >
-                    My Nano Ninja
+                    My Bitcoinblack Ninja
                   </a>
                 )
               }}

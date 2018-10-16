@@ -5,10 +5,10 @@ import config from "../../../server-config.json";
 const fsStat = promisify(fs.stat);
 
 const dbSize = async () => {
-  if (!config.raiblocksDir) return null;
+  if (!config.bitcoinblackblocksDir) return null;
 
   try {
-    const stats = await fsStat(`${config.raiblocksDir}/data.ldb`);
+    const stats = await fsStat(`${config.bitcoinblackblocksDir}/data.ldb`);
     return stats.size;
   } catch (e) {
     return null;

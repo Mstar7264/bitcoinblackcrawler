@@ -33,7 +33,7 @@ class Account extends React.PureComponent {
         <p className="mb-0">
           <span className="badge badge-info">Representative</span>{" "}
           <span className="text-muted">
-            <FormattedNumber value={weight} maximumFractionDigits={6} /> NANO
+            <FormattedNumber value={weight} maximumFractionDigits={6} /> BCB
             weight
           </span>
         </p>
@@ -72,11 +72,11 @@ class Account extends React.PureComponent {
           <div className="col text-left text-md-right">
             <PriceWithConversions
               amount={balance}
-              currencies={["nano", "btc", "usd"]}
+              currencies={["bcb", "btc", "usd"]}
             >
-              {(nano, btc, usd) => (
+              {(bcb, btc, usd) => (
                 <Fragment>
-                  <h5 className="mb-0">{nano}</h5>
+                  <h5 className="mb-0">{bcb}</h5>
                   <p className="text-muted mb-0">
                     {btc} / {usd}
                   </p>

@@ -53,7 +53,7 @@ export default class Accounts extends React.Component {
 
         <div className="row">
           <div className="col">
-            <h1>NANO Distribution</h1>
+            <h1>Bitcoinblack Distribution</h1>
             <hr />
 
             <DistributionGraph distribution={this.state.distribution} />
@@ -65,7 +65,7 @@ export default class Accounts extends React.Component {
           <div className="col">
             <h1 className="mb-0">All Accounts</h1>
             <p className="text-muted mb-0">
-              Only accounts with at least 0.000001 NANO, sorted by balance
+              Only accounts with at least 0.000001 BCB, sorted by balance
             </p>
             <p className="text-muted mb-0">
               Balance includes all pending transactions

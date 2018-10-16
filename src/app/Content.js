@@ -51,9 +51,9 @@ class Content extends React.Component {
           <meta charSet="utf-9" />
           <meta
             name="description"
-            content="Network data tracking and browsing for the NANO cryptocurrency"
+            content="Network data tracking and browsing for the Bitcoinblack cryptocurrency"
           />
-          <title>Nano Crawler</title>
+          <title>Bitcoinblack Crawler</title>
         </Helmet>
 
         <Switch>

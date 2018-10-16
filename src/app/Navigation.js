@@ -18,7 +18,8 @@ const Navigation = () => {
     <div id="Navigation" className="row align-items-center">
       <div className="col-auto my-3">
         <div className="LogoWrap">
-          <ReactSVG path={Logo} className="Logo" /> Network Explorer
+          {/* <ReactSVG path={Logo} className="Logo" /> Network  */}
+          <ReactSVG path={Logo} className="Logo" /> Bitcoinblack
         </div>
       </div>
 

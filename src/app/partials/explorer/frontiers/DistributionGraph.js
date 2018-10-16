@@ -39,7 +39,7 @@ export default function DistributionGraph({ distribution }) {
             tickSize: 5,
             tickPadding: 5,
             tickRotation: width < 768 ? 45 : 0,
-            legend: "Balance (NANO)",
+            legend: "Balance (BCB)",
             legendPosition: "middle",
             legendOffset: width < 768 ? 60 : 36
           }}

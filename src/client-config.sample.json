@@ -1,7 +1,7 @@
 {
   "server": "http://127.0.0.1:3001",
   "websocketServer": "ws.nanocrawler.cc",
-  "currency": "NANO",
+  "currency": "BCB",
   "maxCoinSupply": 133248289,
   "features": {
     "nodeStatus": true,

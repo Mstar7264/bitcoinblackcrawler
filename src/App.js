@@ -28,18 +28,18 @@ function App({ locale }) {
           <div className="col-md">
             <div className="py-2 px-4">
               <p className="mb-0">
-                Created by Ryan LeFevre, Sr. Software Engineer at{" "}
-                <a href="https://www.hodinkee.com" target="_blank">
-                  HODINKEE
+                Created by Mstar, Sr. Software Engineer at{" "}
+                <a href="" target="_blank">
+                  Mstar
                 </a>
               </p>
               <p>
                 Donations:{" "}
-                <AccountLink account="xrb_3xemzomy4atzmq5u55mzzixqw9zxykyeyeiqia7rb1xy1saufpr8wzder1xh" />
+                <AccountLink account="bcb_3xemzomy4atzmq5u55mzzixqw9zxykyeyeiqia7rb1xy1saufpr8wzder1xh" />
               </p>
             </div>
           </div>
-          <div className="col-auto">
+          {/* <div className="col-auto">
             <div className="py-2 px-4">
               <a href="https://twitter.com/meltingice" target="_blank">
                 Twitter
@@ -56,7 +56,7 @@ function App({ locale }) {
                 Source code
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </IntlProvider>

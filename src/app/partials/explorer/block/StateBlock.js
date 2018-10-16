@@ -55,7 +55,7 @@ export default class StateBlock extends React.Component {
           <small className="text-muted">
             <PriceWithConversions
               amount={block.amount}
-              currencies={["nano", "usd", "btc"]}
+              currencies={["bcb", "usd", "btc"]}
             />
           </small>
         </h4>
@@ -72,7 +72,7 @@ export default class StateBlock extends React.Component {
           <small className="text-muted">
             <PriceWithConversions
               amount={block.contents.balance}
-              currencies={["nano", "usd", "btc"]}
+              currencies={["bcb", "usd", "btc"]}
             />
           </small>
         </h4>

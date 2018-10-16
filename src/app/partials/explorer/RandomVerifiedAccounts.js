@@ -28,11 +28,11 @@ export default class RandomVerifiedAccounts extends React.Component {
             values={{
               link: (
                 <a
-                  href="https://mynano.ninja"
+                  href="http://18.233.201.235"
                   target="_blank"
                   className="text-muted"
                 >
-                  My Nano Ninja
+                  My Bitcoinblack Ninja
                 </a>
               )
             }}

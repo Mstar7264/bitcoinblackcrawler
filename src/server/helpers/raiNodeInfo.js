@@ -4,24 +4,24 @@ import pidusage from "pidusage";
 
 const pExec = promisify(exec);
 
-let RAI_PID;
+let BITCOINBLACK_PID;
 
 export default async function getStats() {
-  if (!RAI_PID) await discoverPid();
+  if (!BITCOINBLACK_PID) await discoverPid();
 
   try {
-    return await pidusage(RAI_PID);
+    return await pidusage(BITCOINBLACK_PID);
   } catch (e) {
     console.log(e.message);
-    RAI_PID = null;
+    BITCOINBLACK_PID = null;
     return {};
   }
 }
 
 async function discoverPid() {
   try {
-    RAI_PID = await pExec("pgrep rai_node");
-    console.log("rai_node:", RAI_PID);
+    RAI_PID = await pExec("pgrep bitcoinblack_node");
+    console.log("bitcoinblack_node:", BITCOINBLACK_PID);
   } catch (e) {
     console.log(e.message);
   }
