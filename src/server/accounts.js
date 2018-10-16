@@ -11,7 +11,7 @@ async function calculateAccountList() {
 
   const frontierCount = (await nano.rpc("frontier_count")).count;
   const data = (await nano.rpc("frontiers", {
-    account: "xrb_1111111111111111111111111111111111111111111111111111hifc8npp",
+    account: "bcb_1111111111111111111111111111111111111111111111111111hifc8npp",
     count: frontierCount
   })).frontiers;
 

@@ -10,9 +10,9 @@
     <Developer>Ryan LeFevre</Developer>
     <Contact>meltingice8917@gmail.com</Contact>
     <Tags>cryptocurrency Bitcoinblack bcb bitcoinblackblocks account block blockchain node</Tags>
-    <Attribution>Search the Bitcoinblack currency network, https://nanocrawler.cc/</Attribution>
+    <Attribution>Search the Bitcoinblack currency network, http://18.233.201.235/</Attribution>
     <SyndicationRight>open</SyndicationRight>
     <Query role="example" searchTerms="bcb_3t6k35gi95xu6tergt6p69ck76ogmitsa8mnijtpxm9fkcm736xtoncuohr3"/>
-    <Image height="16" width="16" type="image/vnd.microsoft.icon">https://nanocrawler.cc/favicon.ico</Image>
-    <Url type="text/html" template="https://nanocrawler.cc/explorer/auto/{searchTerms}"/>
+    <Image height="16" width="16" type="image/vnd.microsoft.icon">http://18.233.201.235/favicon.ico</Image>
+    <Url type="text/html" template="http://18.233.201.235/explorer/auto/{searchTerms}"/>
 </OpenSearchDescription>
