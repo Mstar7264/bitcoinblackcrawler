@@ -28,9 +28,9 @@ function App({ locale }) {
           <div className="col-md">
             <div className="py-2 px-4">
               <p className="mb-0">
-                Created by Mstar, Sr. Software Engineer at{" "}
+                Created by Jason, Sr. Software Engineer at{" "}
                 <a href="" target="_blank">
-                  Mstar
+                  BitcoinBlack
                 </a>
               </p>
               <p>
