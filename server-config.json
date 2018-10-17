@@ -1,9 +1,11 @@
 
-"nodeName": "18.233.201.235",
-"account": "bcb_3igk57m3hzyx6oxt1pmu3yj5k9m88tic6sx199pjx1tc561urs4umgzaxj4j",
-"clientUrl": "http://18.233.201.235:7078",
-"bitcoinblackblocksDir": "/home/ubuntu/BitcoinBlack",
-"nodeHost": "http://18.233.201.235:7078",
-"redis": "redis://127.0.0.1:6379",
-"serverPort": 3001,
-"blacklistedPeers": []
+{
+    "nodeName":"18.233.201.235",
+    "account": "bcb_3igk57m3hzyx6oxt1pmu3yj5k9m88tic6sx199pjx1tc561urs4umgzaxj4j",
+    "clientUrl": "http://18.233.201.235:7078",
+    "bitcoinblackblocksDir": "/home/ubuntu/BitcoinBlack",
+    "nodeHost": "http://18.233.201.235:7078",
+    "redis": "redis://127.0.0.1:6379",
+    "serverPort": 3001,
+    "blacklistedPeers": []    
+}
