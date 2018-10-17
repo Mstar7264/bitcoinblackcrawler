@@ -1,11 +1,9 @@
 
- "nodeName": "nano.meltingice.net",
-  "account": "xrb_1x7biz69cem95oo7gxkrw6kzhfywq4x5dupw4z1bdzkb74dk9kpxwzjbdhhs",
-  "clientUrl": "https://nano.meltingice.net",
-  "raiblocksDir": "/home/ryanlefevre/RaiBlocks",
-  "nodeHost": "http://10.0.1.152:7076",
-  "redis": "redis://127.0.0.1:6379",
-  "redisNamespace": "production",
-  "serverPort": 3001,
-  "knownMonitors": [],
-  "blacklistedPeers": []
+"nodeName": "18.233.201.235",
+"account": "bcb_1uo1kartwahyup18rhsdmboeje1oewkwkgy1ewkbjwknp63e8kdbh4ysp76g",
+"clientUrl": "http://18.233.201.235:7078",
+"bitcoinblackblocksDir": "/home/ubuntu/BitcoinBlack",
+"nodeHost": "http://18.233.201.235:7078",
+"redis": "redis://127.0.0.1:6379",
+"serverPort": 3001,
+"blacklistedPeers": []
