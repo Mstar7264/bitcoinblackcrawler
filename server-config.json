@@ -5,7 +5,6 @@
     "clientUrl": "http://18.233.201.235:7078",
     "bitcoinblackblocksDir": "/home/ubuntu/BitcoinBlack",
     "nodeHost": "http://18.233.201.235:7078",
-    "redis": "redis://127.0.0.1:6379",
     "serverPort": 3001,
     "blacklistedPeers": []    
 }
